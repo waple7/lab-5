@@ -13,7 +13,8 @@ int main(){
     high_right= (array_1[0][0]) * (array_2[0][1]) + (array_1[0][1]) * (array_2[1][1]);
     down_left= (array_1[1][0]) * (array_2[0][0]) + (array_1[1][1]) * (array_2[1][0]);
     down_right= (array_1[1][0]) * (array_2[0][1]) + (array_1[1][1]) * (array_2[1][1]);
-
+    
+    printf("resulting matrix:\n");
     printf("%d  %d\n",high_left,high_right);
     printf("%d  %d",down_left,down_right);
 
